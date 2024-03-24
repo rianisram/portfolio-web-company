@@ -19,7 +19,7 @@ const Navbar1 = () => {
           About us
         </Navbar.Link>
         <Navbar.Link href="/Product">Product</Navbar.Link>
-        <Navbar.Link href="/Contact">Contact</Navbar.Link>
+        <Navbar.Link href="/Teams">Teams</Navbar.Link>
       </Navbar.Collapse>
     </Navbar>
   )  

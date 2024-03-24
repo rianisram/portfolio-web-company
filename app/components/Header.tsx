@@ -7,7 +7,7 @@ const links = [
   { name: 'Home', href: 'Home' },
   { name: 'About us', href: 'Aboutus' },
   { name: 'Product', href: 'Product' },
-  { name: 'Contact', href: 'Contact' },
+  { name: 'Teams', href: 'Teams' },
 ]
 const stats = [
   { name: 'Offices worldwide', value: '30' },

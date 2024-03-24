@@ -52,7 +52,7 @@ const Footers = () => {
         </li>
 
         <li>
-          <a className=" dark:text-white transition hover:text-gray-700/75" href="/Contact"> Contact </a>
+          <a className=" dark:text-white transition hover:text-gray-700/75" href="/Teams"> Teams </a>
         </li>
       </ul>
     </div>
