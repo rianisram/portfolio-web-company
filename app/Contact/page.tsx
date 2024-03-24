@@ -9,7 +9,7 @@ const baseURL = `https://randomuser.me/api/?results=6`
 
 const Contact = () => {
 
-    const [user, setPost] = React.useState(null);
+    const [user, setPost] = React.useState<any[]>([]);
 
     React.useEffect(() => {
         axios.get(baseURL).then((response) => {
