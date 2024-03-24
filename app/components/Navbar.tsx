@@ -7,7 +7,8 @@ const Navbar1 = () => {
   return (
     <Navbar fluid rounded>
       <Navbar.Brand as={Link} href="https://th.bing.com/th/id/OIP.X1gjiBwlWD2MF3DZvrTAJgHaBU?rs=1&pid=ImgDetMain">
-        <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white">Tomatsu</span>
+      <img src="/images/Komatsu.svg" className="mr-10 h-15 sm:h-20" alt="Komatsu Logo" />
+      {/* <span className="self-center whitespace-nowrap text-xl font-semibold text-blue-950"></span> */}
       </Navbar.Brand>
       <Navbar.Toggle />
       <Navbar.Collapse>
