@@ -6,8 +6,8 @@ import { Navbar } from 'flowbite-react';
 const Navbar1 = () => {
   return (
     <Navbar fluid rounded>
-      <Navbar.Brand as={Link} href="https://th.bing.com/th/id/OIP.X1gjiBwlWD2MF3DZvrTAJgHaBU?rs=1&pid=ImgDetMain">
-      <img src="/images/Komatsu.svg" className="mr-10 h-15 sm:h-20" alt="Komatsu Logo" />
+      <Navbar.Brand as={Link} href="/Home">
+      <img src="/images/Komatsu.svg" className="mr-9 h-12 sm:h-12" alt="Komatsu Logo" />
       {/* <span className="self-center whitespace-nowrap text-xl font-semibold text-blue-950"></span> */}
       </Navbar.Brand>
       <Navbar.Toggle />
