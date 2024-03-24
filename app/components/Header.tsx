@@ -20,8 +20,9 @@ const Header = () => {
     <div className="relative isolate overflow-hidden bg-gray-900 py-24 sm:py-32">
       <img
         src="https://images.unsplash.com/photo-1628740106919-0a1b85f9328c?q=80&w=1505&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-        alt=""
+        alt="background"
         className="absolute inset-0 -z-10 h-full w-full object-cover object-right md:object-center"
+        rel="preload"
       />
       <div
         className="hidden sm:absolute sm:-top-10 sm:right-1/2 sm:-z-10 sm:mr-10 sm:block sm:transform-gpu sm:blur-3xl"
@@ -65,8 +66,10 @@ const Header = () => {
           <div className="mt-16 grid grid-cols-1 gap-8 sm:mt-20 sm:grid-cols-2 lg:grid-cols-4">
             {stats.map((stat) => (
               <div key={stat.name} className="flex flex-col-reverse">
-                <dt className="text-base leading-7 text-gray-300">{stat.name}</dt>
-                <dd className="text-2xl font-bold leading-9 tracking-tight text-white">{stat.value}</dd>
+                <dl>
+                  <dt className="text-base leading-7 text-gray-300">{stat.name}</dt>
+                  <dd className="text-2xl font-bold leading-9 tracking-tight text-white">{stat.value}</dd>
+                </dl>
               </div>
             ))}
           </div>

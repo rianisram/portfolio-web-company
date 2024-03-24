@@ -28,7 +28,7 @@ const Footers = () => {
     <div className="lg:flex lg:items-end lg:justify-between">
       <div>
         <div className="flex justify-center text-teal-600 lg:justify-start">
-         <img src='/images/Komatsu.svg' className='size-40'></img>
+         <img src='/images/Komatsu.svg' className='size-40' alt='Komatsu Logo'></img>
         </div>
 
         <p className="mx-auto mt-6 max-w-md text-center leading-relaxed text-blue-900 lg:text-left text-2xl">
